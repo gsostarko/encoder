@@ -10,7 +10,7 @@ The Base58 encoding format is designed for use in Bitcoin and is used in many ot
 To encode a string manually first we have to convert it to a Hex ascii string. For example let's say our string is name "Hana":
 
 
-
+Shown bellow is a partial table of ascii code.
 
 |#    |Symbol   | HEX value|#    |Symbol   | HEX value|#    |Symbol   | HEX value|
 |:---:|:-------:|:--------:|:---:|:-------:|:--------:|:---:|:-------:|:--------:|
@@ -41,7 +41,13 @@ To encode a string manually first we have to convert it to a Hex ascii string. F
 |     |         |          |35.  |        Y|        59|61.  |        y|        79|
 |     |         |          |36.  |        Z|        5A|62.  |        z|        7A|
 
-
+From the table we get the hex value of the name "Hana"
+|Letter|Hex value|
+|:----:|:-------:|
+|H     |48       |
+|a     |61       |
+|n     |6E       |
+|a     |61       |
 
 # Module usage
 
