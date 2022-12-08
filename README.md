@@ -61,8 +61,10 @@ Now we have to look at our alphabet:
 
 
 Iteration 1:
+$$
 1214344801 // 58 = 20936979
 1214344801 % 58 = 19 
+$$
 19 + 1 = 20 => TABLE(20) => L
 
 Iteration 2:
