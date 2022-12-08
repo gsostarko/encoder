@@ -1,6 +1,19 @@
 # Encrypter module
 
-Custom Base58 coding/decoding module
+Custom Base58 coding/decoding module written in Python. For now, the module uses only the alphabet used for Bitcoun adresses and IPFS hashes.
+
+## Base58
+The Base58 encoding format is designed for use in Bitcoin and is used in many other cryptocurrencies. It offers a balance between compact performace, readability, definition and error prevention. Base58 is a suset of Base64 that uses lowercase and uppercase letters and numbers, but without some characters that are often mistaken for each other and can be identical in some fonts. In particular, Base58 is Base64 without number 0 (zero), O (capital letter O), l (small letter L), I (large letter i), and characters "\+" and "/". Or, simply put, it is a set of uppercase and lowercase letters and numbers without the four (0, O, L, I) mentioned above. In contrast to Base64, the digits of the encoding do not line up well with byte boundaries of the original data. For this reason, the method is well-suited to encode large integers, but not designed to encode longer portions of binary data. The actual order of letters in the alphabet depends on the application, which is the reason why the term "Base58" alone is not enough to fully describe the format. A variant, Base56, excludes 1 (one) and o (lowercase o) compared to Base58.
+
+
+## How does it Work?
+To encode a string manually first we have to convert it to a Hex ascii string. For example let's say our string is name "Hana":
+
+
+
+
+|#    |Symbol   | HEX value|
+|:---:|:-------:|:--------:|
 
 # Module usage
 
