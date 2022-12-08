@@ -59,22 +59,46 @@ Now we have to look at our alphabet:
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |1  |2  |3  |4  |5  |6  |7  |8  |9  |A  |B  |C  |D  |E  |F  |G  |H  |J  |K  |L  |M  |N  |P  |Q  |R  |S  |T  |U  |V  |W  |X  |Y  |Z  |a  |b  |c  |d  |e  |f  |g  |h  |i  |j  |k  |m  |n  |o  |p  |q  |r  |s  |t  |u  |v  |w  |x  |y  |z  |
 
+
+Iteration 1:
+1214344801 // 58 = 20936979
+1214344801 % 58 = 19 
+
+Iteration 2:
+20936979 // 58 = 360982
+20936979 % 58 = 23
+
+Iteration 3:
+360982 // 58 = 6223
+360982 % 58 = 48
+
+Iteration 4:
+6223 // 58 = 107
+6223 % 58 = 17
+
+Iteration 5:
+107 // 58 = 1
+107 % 58 = 49
+
+Iteration 6:
+1 // 58 = 0
+1 % 58 = 1
 # Module usage
 
 Importing the module for Base58 encoding and decoding
 ```python
-from encripter import Encripter
+from encrypter import Encrypter
 ```
 
 # Encoding
 Input:
 ```python
-from encripter import Encripter
+from encrypter import Encrypter
 
-encripter = Encripter()
+encrypter = Encrypter()
 
 text_to_encode = "Test string to encode"
-text_encoded = encripter.b58encode(text_to_encode)
+text_encoded = encrypter.b58encode(text_to_encode)
 print(text_encoded)
 ```
 
@@ -87,12 +111,12 @@ Output:
 # Decoding
 Input:
 ```python
-from encripter import Encripter
+from encrypter import Encrypter
 
-encripter = Encripter()
+encrypter = Encrypter()
 
 text_to_decode = "6C11q3kb5UkAaE5hfb1WMZ78KUsEt"
-text_decoded = encripter.b58decode(text_to_decode)
+text_decoded = encrypter.b58decode(text_to_decode)
 print(text_decoded)
 ```
 
