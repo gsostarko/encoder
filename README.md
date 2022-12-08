@@ -49,6 +49,13 @@ From the table we get the hex value of the name "Hana"
 |n     |6E       |
 |a     |61       |
 
+so the hex value of "Hana" is: 48 61 6E 61
+
+Next, we have to convert the text value to decimal value:
+|4  |8  |
+|:-:|:-:|
+|4*16^1|8*16^0|
+
 # Module usage
 
 Importing the module for Base58 encoding and decoding
