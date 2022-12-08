@@ -1,15 +1,15 @@
-#Encrypter module
+# Encrypter module
 
 Custom Base58 coding/decoding module
 
-#Module usage
+# Module usage
 
 Importing the module for Base 58 encoding and decoding
 '''python
 from encripter import Encripter
 '''
 
-#Encoding
+# Encoding
 Input:
 '''python
 from encripter import Encripter
@@ -25,7 +25,7 @@ Output:
 '''
 
 
-#Decoding
+# Decoding
 Input:
 '''python
 from encripter import Encripter
