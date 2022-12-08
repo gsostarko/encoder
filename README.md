@@ -63,26 +63,35 @@ Now we have to look at our alphabet:
 Iteration 1:
 1214344801 // 58 = 20936979
 1214344801 % 58 = 19 
+19 + 1 = 20 => TABLE(20) => L
 
 Iteration 2:
 20936979 // 58 = 360982
 20936979 % 58 = 23
+23 + 1 = 24 => TABLE(24) => Q
 
 Iteration 3:
 360982 // 58 = 6223
 360982 % 58 = 48
+48 + 1 = 49 => TABLE(49) => q
 
 Iteration 4:
 6223 // 58 = 107
 6223 % 58 = 17
+17 + 1 = 18 => TABLE(18) => J
 
 Iteration 5:
 107 // 58 = 1
 107 % 58 = 49
+49 + 1 = 50 => TABLE(50) => r
 
 Iteration 6:
 1 // 58 = 0
 1 % 58 = 1
+1 + 1 = 2 => TABLE(2) => 2
+
+So the final Base58 encoded message is: "2rJqQL"
+
 # Module usage
 
 Importing the module for Base58 encoding and decoding
